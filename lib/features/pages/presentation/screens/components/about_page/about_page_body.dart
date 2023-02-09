@@ -106,7 +106,16 @@ class AboutPageBody extends ConsumerWidget {
               SizedBox(
                 width: 71,
                 child: Text(
-                  '🔥 Залишилося 2 місця',
+                  '🔥',
+                  textAlign: TextAlign.center,
+                  maxLines: 3,
+                  style: fBodyText3Style,
+                ),
+              ),
+              SizedBox(
+                width: 80,
+                child: Text(
+                  'Залишилося 2 місця',
                   textAlign: TextAlign.center,
                   maxLines: 3,
                   style: fBodyText3Style,
